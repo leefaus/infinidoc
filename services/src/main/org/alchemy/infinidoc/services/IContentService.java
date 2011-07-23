@@ -13,7 +13,7 @@ import javax.jws.WebService;
  */
 
 @WebService
-public interface IContent {
+public interface IContentService {
 
     @WebResult(name="status", targetNamespace = "http://services.infinidoc.alchemy.com")
     public String createDocument(String repositoryId, String folderId, Document document);

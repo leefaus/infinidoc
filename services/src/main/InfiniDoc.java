@@ -1,8 +1,5 @@
-import org.mortbay.xml.XmlConfiguration;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-
-import java.io.File;
 
 /**
  * @author: leefaus

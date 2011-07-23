@@ -9,5 +9,5 @@ import javax.jws.WebService;
  */
 
 @WebService
-public interface IVersioning {
+public interface INavigationService {
 }
