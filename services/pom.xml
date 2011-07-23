@@ -15,6 +15,7 @@
         <rabbitmq.version>2.5.1</rabbitmq.version>
         <log4j.version>1.2.16</log4j.version>
         <jetty.version>7.4.4.v20110707</jetty.version>
+        <jackson.version>1.8.3</jackson.version>
     </properties>
 
     <dependencies>
@@ -38,6 +39,16 @@
             <groupId>org.apache.cxf</groupId>
             <artifactId>cxf-common-utilities</artifactId>
             <version>${cxf.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.cxf</groupId>
+            <artifactId>cxf-bundle-jaxrs</artifactId>
+            <version>${cxf.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-jaxrs</artifactId>
+            <version>${jackson.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
